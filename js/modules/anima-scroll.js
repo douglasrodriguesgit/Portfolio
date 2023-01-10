@@ -10,6 +10,7 @@ export default function initAnimacaoScroll() {
         else section.classList.remove("ativo");
       });
     }
+    animaScroll();
     window.addEventListener("scroll", animaScroll);
   }
 }
