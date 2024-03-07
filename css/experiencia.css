@@ -28,7 +28,6 @@
   color: #141414;
 }
 
-
 .empresa {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -64,6 +63,11 @@
   font-size: 1.125rem;
   line-height: 1.1;
   font-weight: bold;
+}
+
+.empresa h3:hover{
+  text-decoration: underline;
+  color: #525252;
 }
 
 .empresa_texto {
